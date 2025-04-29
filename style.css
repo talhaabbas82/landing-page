@@ -1,0 +1,636 @@
+.main{
+    margin: 5px;
+    height: 1000px;
+    width: 100%;
+    /* background-color: aqua; */
+} 
+body{
+    font-family: space Grotesk;
+}      
+.header{
+    display: flex;
+    height: 100px;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+}
+.logo{
+    padding: 5px;
+    margin: 13px;
+    display: inline-block;
+    height:40px;
+    width:20px;
+    /* background-color: blue; */
+}
+.logotext{
+    margin-top: 6px;
+    padding-right: 10px;
+    padding: 10px;   
+    font-size: 35px;
+    height: 50px;
+    width: 150px;
+    /* background-color: rgb(0, 223, 223); */
+}
+.navbar {
+    margin-left:250px;
+    height: 80px;
+    width: 48%;
+    /* background-color: rgb(245, 169, 169); */
+}
+ul{
+    width: 600px;
+    /* background-color: black; */
+}
+.navbar ul li{
+    padding: 15px;
+    /* margin:20px; */
+    font-size: 20px;
+display: inline-block; 
+}
+.btn{
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 18px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 20px;
+    height:50px;
+    width: 200px;
+    /* background-color: green; */
+
+}
+
+
+
+
+/* Hero section */
+
+.Hero{
+    margin-top: 50px;
+    display: flex;
+    height: 500px;
+    width: 100%;
+    background-color: black;
+}
+.herotextBox{
+    height: 500px;
+    width: 50%;
+    background-color: white;
+}
+.heroimage{
+    height: 500px;
+    width: 50%;
+    background-color: white;
+}
+.herolongpara{
+    height: 200px;
+    width: 85%;
+    font-size: 60px;
+}
+.Heroshortpara{
+    word-spacing: 2px;
+    line-height: 25px;
+    padding-top: 60px;
+     font-size: 20px;
+    width: 69%;
+}
+.herobotton{
+    margin-top: 40px;
+    padding-top: 15px;
+    height: 40px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+
+/* logos section */
+
+.logos{
+    margin-top: 20px;
+    height: 200px;
+    width: 100%;
+    background-color: rgb(246, 246, 246);
+    display: flex;
+}
+.logo6{
+    margin: 40px;
+    height: 0px;
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* Services */
+.services{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    /* background-color: ; */
+}
+
+.servicesbotton{
+    padding: 5px;
+    /* margin: 15px; */
+    height: 35px;
+    width: 11;
+    background-color:rgb(185, 255, 102) ;
+    font-size: 35px;
+    font-weight: bolder;
+    border-radius:10px;
+}
+.servicesparagraph{
+ margin-left:  35px;
+ height:40px;
+ width: 48%;
+ color: rgb(0, 0, 0);
+ font-size: 20px;
+ word-spacing: 2px;
+}
+
+
+
+/* cards */
+
+.cards{
+    height: 380px;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+
+}
+.card1{
+    margin-left: 35px;
+    margin-top: 50px;
+    height: 300px;
+    width: 44%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 40px;
+    display: flex;
+}
+
+.card2{
+    display: flex;
+margin-left: 50px;
+    margin-top: 50px;
+    height: 300px;
+    width: 44%;
+    background-color:rgb(185, 255, 102);
+    border: 1px solid black;
+    border-radius: 40px;
+
+
+
+} 
+.cardheading{
+    border-radius: 20px;
+    margin: 40px;
+    height: 200px;
+    width: 250px;
+} 
+.cardspan1{
+    font-size: 30px;
+border-radius: 5px;
+    background-color:rgb(185, 255, 102)
+}
+.cardspan2{
+    font-size: 30px;
+border-radius: 8px;
+    background-color:white;
+}
+.cardimage1{
+    margin: 60px;
+}
+
+.cardimage2{
+    margin: 60px;
+}
+.aero{ 
+    display: flex;
+    height: 60px;
+    width: 200px;
+    margin-top:  100px;
+}
+.aerospan{
+    padding-top:10px;
+     width: 120px; 
+    font-size: 20px;
+}
+    
+.iconimage{
+        height: 50px;
+        width: 50px;
+        /* background-color: rgb(255, 255, 255); */
+        
+    }
+
+
+/* our working */
+
+
+.ourworking{
+height:100px ;
+width: 100%;
+background-color: rgb(255, 255, 255);
+display: flex;
+}
+.workheading{
+    padding: 9px;
+    margin-top: 25px;
+    height: 30px;
+    width:300px ;
+    background-color:rgb(185, 255, 102);
+    font-size: 30px;
+
+   font-family : Space Grotesk;
+    border-radius: 8px;
+}
+.workparagraph{
+    margin-left: 40px;
+    font-size: 20px;
+    padding:1px;
+    height: 30px;
+    margin-top: 25px;
+    width: 320px;
+    word-spacing: 5px;
+}
+
+
+
+.consolation{
+
+height:900px;
+width: 100%;
+background-color: rgb(255, 255, 255);
+
+    }
+.box{
+    height: 150px;
+    width: 95%;
+    background-color: black;
+}
+ .a1{
+    height: 300px;
+    width: 95%;
+    border-radius: 29px;
+    border: 1px solid black;
+    margin-top: 20px;
+    background-color: rgb(185, 255, 102);
+    box-shadow: 4px 4px 4px black;
+}
+.content{
+  align-items: center;
+  justify-content: space-between;
+    display: flex;
+}
+.para{
+    padding-left: 40px;
+    font-size: 20px;
+    word-spacing: 2px;
+}
+
+
+.a2{
+    align-items: center;
+    justify-content: space-between;
+    /* padding-left:40px; */
+    border-radius: 29px;
+    border: 1px solid black;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    box-shadow: 4px 4px 4px black;
+}
+.consolationtext{
+    font-size: 30px;
+    padding:3px;
+    margin: 30px;
+    height: 50px;
+    width:50%;
+    /* background-color: rgb(255, 255, 255); */
+    
+}
+.plasbox{
+    margin-right: 50px;
+    margin-left: 30px;
+    height: 50px;
+    width: 50px;
+    background-color: #000000;
+    border-radius: 100%;
+}
+
+.a3{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 27px;
+    border: 2px solid black;
+    margin-top: 20px;
+    background-color: rgb(252, 252, 252);
+    box-shadow: 4px 4px 4px black;
+}
+
+.a4{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 29px;
+    border: 1px solid black;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 4px black;
+}
+
+.a5{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 35px;
+    border: 1px solid black;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 4px black;
+}
+
+.a6{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 35px;
+    border: 1px solid black;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 4px black;
+} 
+.consolationspan{
+    font-size: 50px;
+}
+
+
+/* contact us */
+
+
+.contactus{
+height:100px ;
+width: 100%;
+background-color: rgb(255, 255, 255);
+display: flex;
+}
+.conheading{
+    padding: 9px;
+    margin-top: 25px;
+    height: 30px;
+    width:160px ;
+    background-color:rgb(185, 255, 102);
+    font-size: 30px;
+
+   font-family : Space Grotesk;
+    border-radius: 8px;
+}
+.conparagraph{
+    margin-left: 40px;
+    font-size: 20px;
+    padding:1px;
+    height: 30px;
+    margin-top: 25px;
+    width: 400px;
+    word-spacing: 5px;
+}
+
+
+
+/* form */
+
+.formmain{
+    height: 650px;
+    width: 100%;
+    background-color: rgb(225, 215, 215);
+    display: flex;
+    justify-content: space-between;
+    border-radius:20px ;
+
+}
+.form{
+    margin-top: 80px;
+  margin-left:100px; 
+ font-size: 20px;
+    height: 400px;
+    width: 70%;
+    background-color: rgb(225, 215, 215);
+}
+.inputbox{
+    margin-top: 20px;
+    height:45px;
+    width: 400px;
+    border-radius: 10px;
+}
+.radio1{
+    height: 25px;
+    width: 40px;
+    
+}
+textarea{
+    margin-top: 20px;
+    height: 120px;
+    width: 400px;
+border-radius: 10px;
+}
+.formimage{
+    margin-top: 80px;
+    height: 500px;
+    width: 30%;
+    background-color: rgb(225, 215, 215);
+}
+.formbotton{
+    height: 45px;
+    width: 400px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top:8px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+
+
+
+/* footer */
+ .footersection{
+    display: flex;
+    height: 100px;
+    width:100%;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 40px;
+} 
+
+.mainfooter{
+    margin-top: 170px;
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+}
+.footerlogo{
+    margin-top: 44px;
+    margin-left: 35px;
+    display: inline-block;
+    height:40px;
+    width:50px;
+    color: white;
+    /* background-color: blue; */
+}
+.footerlogotext{
+    margin-left: 5px;
+    margin-top:40px ;
+    font-size: 30px;
+    height: 50px;
+    width: 150px;
+    /* background-color: rgb(0, 223, 223); */
+}
+.footernavbar {
+    margin-top: 25px;
+    display: flex;
+    margin-left:180px;
+    height: 80px;
+    width: 89%;
+    /* background-color: rgb(245, 169, 169); */
+}
+.footerul{
+    display: flex;
+    width: 800px;
+    background-color: rgb(0, 0, 0);
+}
+.footernavbar ul li{
+    padding: 15px;
+    font-size: 20px;
+display: inline-block; 
+color: #ffffff;
+}
+.footericon{
+    gap: 20px;
+    display: flex;
+    margin-left: 80px;
+    height: 50px;
+    width: 190px;
+    margin-top: 12px;
+    background-color: #000000;
+}
+.f{
+    height: 40px;
+    width: 21%;
+
+}
+.icon1{
+    border-radius: 100%;
+    background-color: rgb(0, 0, 0);
+
+}
+.icon2{
+    border-radius: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.icon3{
+    border-radius: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+.footercontact{
+    margin-top:50px ;
+    display: flex;
+    height: 300px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.footercontacttext{
+    margin-top: 50px;
+    height: 250px;
+    width: 40%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.footercontactemail{
+    margin-top: 40px;
+    margin-left: 50px;
+    height: 200px;
+    width: 50%;
+    background-color:rgba( 255, 255, 255, 0.2);
+    display: flex;
+    border-radius: 20px;
+    color: white;
+}
+
+.contactusbotton{
+    height:100px ;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+ 
+    }
+    .footerheading{
+        color: black;
+        padding: 9px;
+        margin-left: 50px;
+        height: 20px;
+        width:130px ;
+        background-color:rgb(21, 255, 0);
+        font-size: 25px;
+       font-family : Space Grotesk;
+        border-radius: 8px;
+    }
+    .footerparagraph{
+        margin-left: 48px;
+        font-size: 18px;
+        padding:1px;
+        height: 30px;
+        margin-top: 25px;
+        width: 400px;
+        word-spacing: 1px;
+    }
+    .email{
+        padding-left: 20px;
+        padding-top:20px ;
+        margin-left: 30px;
+        margin-top: 60px;
+        /* margin: 50px; */
+        border-radius:20px ;
+        height: 50px;
+        width: 42%;
+        border: 1px solid white;
+    }
+    .subscribe{
+        text-align: center;
+        /* padding-left: 20px; */
+        font-size: 18px;
+        padding-top: 20px;
+        margin-left: 10px;
+        border-radius: 20px;
+        margin-top: 60px;
+        height: 50px;
+        width: 42%;
+        border: 1px solid white;
+        background-color:rgb(185, 255, 102);
+        color: #000000;
+    }
+    a{
+        color: white;
+    }
+    .footerend{
+        margin-left: 15px;
+        font-size: 20px;
+        padding: 20px;
+        height: 50px;
+        width: 90%;
+        background-color: rgb(0, 0, 0);
+        color: white;
+    
+    }
+   
